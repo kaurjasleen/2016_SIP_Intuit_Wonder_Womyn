@@ -2,5 +2,4 @@ LICENSE:
 
 MIT License 
 
-What why sint it working 
-  lol
+it is now  lol
