@@ -1,1 +1,3 @@
-did i change it 
+LICENSE:
+
+MIT License 
