@@ -1,0 +1,55 @@
+#changefont{
+	font-family:"Railway", sans-serif;
+	color: dodgerblue; 
+}
+#change_font{
+		font-family: "Comic Sans MS";
+}
+#background{
+    background-color: white;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: rgba(0,0,0,0.75);
+	position: absolute;
+	width: 100%;
+	left: 0%;
+	right: 0%;
+	margin: 0px;
+	width: 100%;
+	
+}
+
+li {
+    position: sticky;
+	
+	float: left;
+/*	background: rgba(255,255,255,0.5);*/
+	
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 30px 40px;
+/*	background:rgba(255,255,255,0.5);*/
+}
+
+li a:hover:not(.active) {
+     font-style: bold;
+  transform: scale(1.5);
+
+}
+.active {
+    transform: #;
+}	
+#logo {
+    max-height: 105px;
+	max-width: 165px;
+	position: sticky;
+}
+}
