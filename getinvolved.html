@@ -13,6 +13,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   
     <link rel="stylesheet" type = "text/css" href="getinvolved.css">
+	 <link rel="stylesheet" type = "text/css" href="code.css">
 </head>
 
 <body>
@@ -24,7 +25,7 @@
     <a class="dropbtn">EDUCATION</a>
     <div class="dropdown-content">
       <a href="whycollege.html">INFORMATION</a>
-      <a href="#">FIND YOUR FA</a>
+      <a href="code.html">FIND YOUR FA</a>
     </div>
   </li>
   <li><a href="jobs.html">JOBS</a></li>
@@ -32,8 +33,9 @@
  <li><a href="aboutus.html">ABOUT US</a></li>
   <li><a href="stories.html">STORIES</a></li>
 </ul>
-
-    
+<!--  particles.js container -->
+<div id="particles-js"></div>
+    <br>
     <h1>GIRL POWER</h1>
     <br>
     <br>
@@ -46,6 +48,7 @@
             <br>
         </div>
         <br>
+		<br>
     <div class="column">
   <div class="col-sm-4 col-md-4">
     <div class="box2">
@@ -96,7 +99,7 @@
       <img src="http://fundangelicafuentes.org/wp-content/uploads/2015/12/WAS-GIRL-up-logo.jpeg" alt="GU" style="width:200px;height:200px"></a>
       <div class="caption">
         <h3 id="fontsize">Girl Up</h3>
-        <p id="font">The leading global community of passionate advocates changing policies and raising funds to support United Nations programs that help the hardest to reach girls living in places where it is hardest to be a girl.</p>
+        <p id="font">The leading global community of passionate advocates changing policies and raising funds to support UN programs that help the hardest to reach girls living in places where it is hardest to be a girl.</p>
       </div>
     </div>
   </div>
@@ -171,7 +174,24 @@
     </div>
   </div>
 </div> 
-</center>
+<!-- scripts -->
+<script src="particles.js"></script>
+<script src="app.js"></script>
+
+<!-- stats.js -->
+<script src="stats.js"></script>
+
+<script src="http://listjs.com/no-cdn/list.js"></script>
+	 <script type="text/javascript"src="code.js"></script>
+	
+	<script>
+
+    if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
+      count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
+    }
+    requestAnimationFrame(update);
+  };
+  requestAnimationFrame(update);
+</script>
 </body>
 </html>
-Contact GitHub API Training Shop Blog About
