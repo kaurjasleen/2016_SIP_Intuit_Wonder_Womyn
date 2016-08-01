@@ -7,6 +7,7 @@
     <link rel="stylesheet" 
     href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
  <link rel="stylesheet" type = "text/css" href="code.css">
+
   
 
     <!-- jQuery library -->
@@ -33,7 +34,8 @@
   <li><a href="stories.html">STORIES</a></li>
 </ul>
 	</div>
-  
+  <!-- particles.js container -->
+<div id="particles-js"></div>
     <br>
       <div><h1>Search For Financial Aid</h1></div>
    <br> <br>
@@ -145,9 +147,26 @@
 
 </div> 
 	
-	
+
+<!-- scripts -->
+<script src="particles.js"></script>
+<script src="app.js"></script>
+
+<!-- stats.js -->
+<script src="stats.js"></script>
+
 <script src="http://listjs.com/no-cdn/list.js"></script>
 	 <script type="text/javascript"src="code.js"></script>
+	
+	<script>
+
+    if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
+      count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
+    }
+    requestAnimationFrame(update);
+  };
+  requestAnimationFrame(update);
+</script>
 	
 	</body>	
 </html>
